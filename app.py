@@ -35,11 +35,11 @@ ws.append([
     date.today(),    # Date Applied
     "",              # Due Date
     job_link,
-    "Not Applied",
+    "Applied",
     "",
     ""
 ])
 
 wb.save(file_name)
 
-print("✅ Job added to tracker!")
+print("Job added to tracker!")
